@@ -159,10 +159,10 @@ export const addAdmin = async (req, res) => {
   }
 };
 export const addDummyAdmin = async () => {
-  const email = "dummy@gmail.com";
+  const email = "dev@gmail.com";
   const password = "123";
-  const name = "dummy";
-  const username = "ADMDUMMY";
+  const name = "dev";
+  const username = "dev156";
   let hashedPassword;
   hashedPassword = await bcrypt.hash(password, 10);
   var passwordUpdated = true;
